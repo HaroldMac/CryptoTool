@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.haroldsurface.cryptotool.Encrypt"
+    tools:showIn="@layout/activity_encrypt">
+
+    <TextView
+        android:layout_width="132dp"
+        android:layout_height="20dp"
+        android:text="Enter your message"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <EditText
+        android:id="@+id/plainTxt"
+        android:layout_width="292dp"
+        android:layout_height="47dp"
+        android:contentDescription="Enter your next here"
+        android:ems="10"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline"
+        app:layout_constraintGuide_begin="20dp"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/cipcherTxt"
+        android:layout_width="294dp"
+        android:layout_height="62dp"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <Button
+        android:id="@+id/encrytpBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Encrypt"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="91dp"
+        android:layout_height="33dp"
+        android:text="Enter your key"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="109dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+</android.support.constraint.ConstraintLayout>
